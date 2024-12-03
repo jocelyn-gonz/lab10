@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 10</title>
+</head>
+<body>
+    <!--q1-->
+    <input type="text" id="FirstName" placeholder="FirstName">
+    <button onclick="greetUser()">Save</button>
+    <!--q2-->
+    <div>
+        <p id="message">Original Message</p>
+        <button onclick="changeMessage()">Change Text</button>
+      </div><br>
+      <!--q3-->
+      <div>
+        <input type="number" id="num1" placeholder="Enter first number">
+        <input type="number" id="num2" placeholder="Enter second number">
+        <button onclick="addNumbers()">Add</button>
+        <div id="result"></div>
+      </div><br><br>
+      <!--q4-->
+      <div>
+        <input type="text" id="titleInput" placeholder="Enter new title">
+        <button onclick="updateTitle()">Update</button>
+        <h1 id="title">Original Title</h1>
+      </div>
+      <!--q5-->
+      <div>
+        <input type="text" id="string1" placeholder="Enter first string">
+        <input type="text" id="string2" placeholder="Enter second string">
+        <button onclick="concatenateStrings()">Concatenate</button>
+        <p id="combinedText"></p>
+      </div>
+      <!--q6-->
+      <div>
+        <div id="colorBox" style="width: 100px; height: 100px; background-color: lightgray;"></div>
+        <button id="changeBgBtn">Change Background</button>
+      </div>
+    <script src="lab10.js"></script>
+</body>
+</html>
